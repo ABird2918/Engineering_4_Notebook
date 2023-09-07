@@ -31,16 +31,13 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 The assignment was to create a countdown for a space mission that counts down from 10 to 0 and declares liftoff. This is all to be printed in the terminal.
 ### Evidence 
 
-### Wiring
-
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+[Code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/liftoff_countdown.py) 
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+As this was the first real coding assignment this year, I experienced some difficulty when creating my coundown. Not only did I have to use a for loop, of which I had to remind myself, but I also had trouble with the range. The assignment asks for a countdown from 10 to 0 and when I was inputing the range for my countdown, I created a range from 10-0. However, that doesn't include 0 at the end of the countdown because it considers it a mission accomplished when it reaches 1. In the end, I decided to leave it this way because it seems silly to print 0 and then print liftoff because in reality, a rocket would liftoff ON 0 not AFTER 0.
 
 &nbsp;
 
