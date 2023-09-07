@@ -30,7 +30,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 The assignment was to create a countdown for a space mission that counts down from 10 to 0 and declares liftoff. This is all to be printed in the terminal.
 ### Evidence 
-
+![Countdown video](images/liftoff.countdowngif)
 
 ### Code
 [Countdown Code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/liftoff_countdown.py) 
