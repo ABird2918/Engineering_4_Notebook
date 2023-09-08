@@ -50,7 +50,7 @@ Next, we had to change our code to include 2 external LEDs: one red and one gree
 ![Lights video](images/liftoff.lights.gif) 
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+[Lights Code][(https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/liftoff_lights.py)]
 
 ### Reflection
 
