@@ -50,11 +50,11 @@ Next, we had to change our code to include 2 external LEDs: one red and one gree
 ![Lights video](images/liftoff.lights.gif) 
 
 ### Code
-[Lights Code][(https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/liftoff_lights.py)]
+[Lights Code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/liftoff_lights.py)
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+My code was working beautifully BUT shortly thereafter, it mysteriously quit working. After a long time looking at it but not actually changing anything, it started working again and I successfully achieved liftoff. I also had an issue putting my video into my README because my file was too big but I fixed that too. I had hesitation when I had to blink the red led because I had to put multiple sleep commands in that add up to one second but I figured that out.
 
 &nbsp;
 ## Onshape_Assignment_Template
