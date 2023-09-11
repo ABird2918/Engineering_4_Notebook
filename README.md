@@ -51,7 +51,7 @@ Next, we had to change our code to include 2 external LEDs: one red and one gree
 
 ### Wiring
 
-![Lights wiring](images/IMG_20230908_104616865_MP.jpg)
+![Lights wiring](images/liftoff.lights.jpg)
 
 ### Code
 [Lights Code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/liftoff_lights.py)
