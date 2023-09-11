@@ -9,10 +9,11 @@ greenled.direction = digitalio.Direction.OUTPUT
 button = digitalio.DigitalInOut(board.GP2)
 button.pull = digitalio.Pull.DOWN
 button.direction = digitalio.Direction.INPUT
-
+print("on")
 # same countdown with a blinking red light
 while True:
-    if (button.value): #If the button has been pushed:
+    if (button.value == True): #If the button has been pushed:
+        print("button")
         for i in range(10,0,-1):
             print(i)
             redled.value = True
@@ -23,3 +24,4 @@ while True:
         print("Liftoff!")
         greenled.value = True
         time.sleep(10)
+        greenled.value = False
