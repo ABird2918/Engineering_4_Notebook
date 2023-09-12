@@ -70,6 +70,8 @@ The assignment was to add a button that triggers the countdown that uses the cor
 ![Button video](images/liftoff.buttongif.gif) 
 ### Wiring
 
+![Button wiring](images/liftoff.buttonwiring.jpg)
+
 ### Code
 [Button Code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/liftoff_button.py)
 
