@@ -67,7 +67,7 @@ The assignment was to add a button that triggers the countdown that uses the cor
 
 ### Evidence 
 
-![Button video](images/liftoff.button.gif.gif) 
+![Button video](images/liftoff.buttongif.gif) 
 ### Wiring
 
 ### Code
