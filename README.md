@@ -77,7 +77,7 @@ The assignment was to add a button that triggers the countdown that uses the cor
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+The main difficulty that I faced was wiring the button. I had a lot of trouble getting my code to respond to the button even though the code seemed like it should have been working. In the end, I had the power and the pin going into the same rail on the board which meant the button wasn't actually going to respond to my code. When I fixed that, it started working immediately and I now have a functinoal button triggered countdown.
 
 &nbsp;
 ## Onshape_Assignment_Template
