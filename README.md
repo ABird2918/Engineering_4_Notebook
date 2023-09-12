@@ -61,6 +61,25 @@ Next, we had to change our code to include 2 external LEDs: one red and one gree
 My code was working beautifully BUT shortly thereafter, it mysteriously quit working. After a long time looking at it but not actually changing anything, it started working again and I successfully achieved liftoff. I also had an issue putting my video into my README because my file was too big but I fixed that too. I had hesitation when I had to blink the red led because I had to put multiple sleep commands in that add up to one second but I figured that out.
 
 &nbsp;
+### Liftoff Part 3: The button
+
+The assignment was to add a button that triggers the countdown that uses the correct LEDs and shows the correct display in the terminal as described in the previous assignments.
+
+### Evidence 
+
+![Button video](images/liftoff.buttongif.gif) 
+### Wiring
+
+![Button wiring](images/liftoff.buttonwiring.jpg)
+
+### Code
+[Button Code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/liftoff_button.py)
+
+### Reflection
+
+The main difficulty that I faced was wiring the button. I had a lot of trouble getting my code to respond to the button even though the code seemed like it should have been working. In the end, I had the power and the pin going into the same rail on the board which meant the button wasn't actually going to respond to my code. When I fixed that, it started working immediately and I now have a functinoal button triggered countdown.
+
+&nbsp;
 ## Onshape_Assignment_Template
 
 ### Assignment Description
