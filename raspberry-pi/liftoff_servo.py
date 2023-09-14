@@ -13,11 +13,12 @@ greenled.direction = digitalio.Direction.OUTPUT
 button = digitalio.DigitalInOut(board.GP2)
 button.pull = digitalio.Pull.DOWN
 button.direction = digitalio.Direction.INPUT
-
+#setup my servo
 pwm_servo = pwmio.PWMOut(board.GP3, duty_cycle=2**15, frequency=50)
 my_servo = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
 
 my_servo.angle = 0
+#have the servo start at 0 degrees
 
 print("on")
 # same countdown with a blinking red light
@@ -34,7 +35,9 @@ while True:
         print("Liftoff!")
         greenled.value = True
         greenled.value = False
+        #when the angle of the servo is in the range, move it 180 degrees
         for angle in range(0, 185, 180):
             my_servo.angle = angle
+            #print the angle to make sure everything is working smoothly
             print(angle)
         time.sleep(10)
