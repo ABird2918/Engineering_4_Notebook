@@ -3,7 +3,6 @@ import board #type: ignore
 import digitalio #type: ignore
 import pwmio #type: ignore
 from adafruit_motor import servo #type: ignore
-import simplio #type: ignore
 from digitalio import DigitalInOut,Direction,Pull #type: ignore
 # set up my leds and button
 
@@ -18,6 +17,8 @@ button.direction = digitalio.Direction.INPUT
 pwm_servo = pwmio.PWMOut(board.GP3, duty_cycle=2**15, frequency=50)
 my_servo = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
 
+my_servo.angle = 0
+
 print("on")
 # same countdown with a blinking red light
 while True:
@@ -31,7 +32,9 @@ while True:
             time.sleep(.5)
             # when the countdown finishes, print liftoff and turn led on
         print("Liftoff!")
-        my_servo.angle = 0
         greenled.value = True
-        time.sleep(10)
         greenled.value = False
+        for angle in range(0, 185, 180):
+            my_servo.angle = angle
+            print(angle)
+        time.sleep(10)
