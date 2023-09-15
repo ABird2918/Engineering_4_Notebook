@@ -95,7 +95,7 @@ The extension of the assignment was to have a servo move 180 degrees upon liftof
 [Servo code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/liftoff_servo.py)
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+Hazel wasn't there the first day I was on this assignment so I was forced to figure it out completely by myself. I was able to figure out all of the code by myself for the first time. However, I struggled with the wiring and in the end, what was stopping me from succeeding was the fact that the ground going to my servo was going through a resistor. Also, I discovered a fun new feature of VScode when it started showing me my recent changes by displaying a very scary red triangle on the left side of the code. It turned out that it was not an emergency, just recent edits.
 
 &nbsp;
 ## Onshape_Assignment_Template
