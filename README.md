@@ -80,6 +80,24 @@ The assignment was to add a button that triggers the countdown that uses the cor
 The main difficulty that I faced was wiring the button. I had a lot of trouble getting my code to respond to the button even though the code seemed like it should have been working. In the end, I had the power and the pin going into the same rail on the board which meant the button wasn't actually going to respond to my code. When I fixed that, it started working immediately and I now have a functinoal button triggered countdown.
 
 &nbsp;
+
+### Liftoff Part 4: The servo
+
+The extension of the assignment was to have a servo move 180 degrees upon liftoff to simulate the actual process of liftoff.
+
+### Evidence 
+
+![Servo video](images/liftoff.servo.gif)
+
+### Wiring
+![Servo wiring](images/liftoff.servowiring.jpg)
+### Code
+[Servo code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/liftoff_servo.py)
+### Reflection
+
+Hazel wasn't there the first day I was on this assignment so I was forced to figure it out completely by myself. I was able to figure out all of the code by myself for the first time. However, I struggled with the wiring and in the end, what was stopping me from succeeding was the fact that the ground going to my servo was going through a resistor. Also, I discovered a fun new feature of VScode when it started showing me my recent changes by displaying a very scary red triangle on the left side of the code. It turned out that it was not an emergency, just recent edits.
+
+&nbsp;
 ## Onshape_Assignment_Template
 
 ### Assignment Description
