@@ -90,7 +90,7 @@ The extension of the assignment was to have a servo move 180 degrees upon liftof
 ![Servo video](images/liftoff.servo.gif)
 
 ### Wiring
-
+![Servo wiring](images/liftoff.servowiring.jpg)
 ### Code
 [Servo code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/liftoff_servo.py)
 ### Reflection
