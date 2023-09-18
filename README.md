@@ -106,7 +106,7 @@ Using an accelerometer, print the x, y, and z acceleration and angular velosity.
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+![Part 1 video](images/crashavoidance_part1gif.gif)
 
 ### Code
 Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
