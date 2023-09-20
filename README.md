@@ -115,7 +115,7 @@ Using an accelerometer, print the x, y, and z acceleration and angular velosity.
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+The directions were very clear for this assignment so there was little room for error prone interpretation. The part that I had the most trouble with was when I accidentally created a new code.py file in my VS code that was unrelated to my PICO. I did that because the original code.py wasn't showing up but it turns out, if your code.py doesn't have any relationship with your Circuitpy folder, the code won't run. Don't worry though, I recovered my other code.py by plugging my PICO into the computer which I probably should have done at the beginning.
 
 &nbsp;
 ## Onshape_Assignment_Template
