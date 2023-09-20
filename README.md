@@ -108,8 +108,10 @@ Using an accelerometer, print the x, y, and z acceleration and angular velosity.
 
 ![Part 1 video](images/crashavoidance_part1gif.gif)
 
+### Wiring
+![Part 1 wiring](images/WIN_20230920_09_37_01_Pro.jpg)
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+[Part 1 code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/crashavoidance_part1.py) 
 
 ### Reflection
 
