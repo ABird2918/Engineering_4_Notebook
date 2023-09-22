@@ -124,7 +124,7 @@ Using an accelerometer, print the x, y, and z acceleration and angular velosity.
 
 ### Evidence 
 
-![Part 2 video](images/WIN_20230920_10_23_59_Pro.mp4)
+![Part 2 video](images/crashavoidance_part2gif.gif)
 
 ### Wiring
 ![Part 1 wiring](images/WIN_20230920_09_37_01_Pro.jpg)
