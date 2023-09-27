@@ -127,9 +127,28 @@ Using an accelerometer, print the x, y, and z acceleration and angular velosity.
 ![Part 2 video](images/crashavoidance_part2gif.gif)
 
 ### Wiring
-![Part 1 wiring](images/crash2wiring.jpg)
+![Part 2 wiring](images/crash2wiring.jpg)
 ### Code
 [Part 2 code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/crashavoidance_part2.py) 
+
+### Reflection
+
+The directions were very clear for this assignment so there was little room for error prone interpretation. The part that I had the most trouble with was when I accidentally created a new code.py file in my VS code that was unrelated to my PICO. I did that because the original code.py wasn't showing up but it turns out, if your code.py doesn't have any relationship with your Circuitpy folder, the code won't run. Don't worry though, I recovered my other code.py by plugging my PICO into the computer which I probably should have done at the beginning.
+
+&nbsp;
+### Crash avoidance: Part 3
+
+Using an accelerometer, print the x, y, and z acceleration and angular velosity on the OLED screen.
+
+### Evidence 
+
+![Part 3 video](images/crashavoidance_part3gif.gif)
+![Part 3 Picture](images/crashavoidance_part3.jpg)
+
+### Wiring
+![Part 3 wiring](images/crash2wiring.jpg)
+### Code
+[Part 3 code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/crashavoidance_part3.py) 
 
 ### Reflection
 
