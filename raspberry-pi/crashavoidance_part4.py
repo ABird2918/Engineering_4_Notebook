@@ -19,8 +19,9 @@ led.direction = digitalio.Direction.OUTPUT
 sda = board.GP4 #SDA pin
 scl = board.GP5 #SCL pin
 i2c = busio.I2C(scl,sda) #I2C device declaration
-sensor = adafruit_mpl3115a2.MPL3115A2(i2c)
+sensor = adafruit_mpl3115a2.MPL3115A2(i2c) #identify what sensor i'm talking about
 
+#set up what values i can measure from the altimeter
 pressure = sensor.pressure
 altitude = sensor.altitude
 temperature = sensor.temperature
@@ -36,7 +37,9 @@ while True:
     splash = displayio.Group()
     #print('Pressure: {0:0.3f} pascals'.format(sensor.pressure))
     #print('Altitude: {0:0.3f} meters'.format(sensor.altitude))
-    print(f"{sensor.altitude}")
+    
+    print(f"{sensor.altitude}")#prints the altitude in the format I want it to the terminal
+
     #print('Temperature: {0:0.3f} degrees Celsius'.format(sensor.temperature))
 # add title block to display group
     title = "ANGULAR VELOCITY"
@@ -47,7 +50,8 @@ while True:
     #PRINT TO THE DISPLAY BOARD
     display.show(splash)
     print(round(mpu.gyro[0],3)) #print
-    if (mpu.acceleration[2] < 7) and (sensor.altitude-altitude)<3: #if the z value is less than 7
+    if (mpu.acceleration[2] < 7) and (sensor.altitude-altitude)<3: 
+        #if the z value is less than 7 AND the altitude is less than 3 meters more than what it started as
         led.value = True #turn the led on
     else:
     #if not
