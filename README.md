@@ -155,6 +155,24 @@ Using an accelerometer, print the x, y, and z acceleration and angular velosity 
 The most easily made mistake for me this time was releasing the i2c pin BEFORE you declare where the pin goes. Second, I struggled a little with getting the OLED to move the cursor because it doesn't work like LCD displays. The wiring of the SCL and the SCL and the SDA and the SDA was weird since it had to be wired to each other in a chain like fashion.
 
 &nbsp;
+### Crash avoidance: Part 4
+
+Using an accelerometer, print the x, y, and z acceleration and angular velosity on the OLED screen. Using an altimeter, only turn the LED on if the altitude is less than 3 meters above launch point.
+
+### Evidence 
+
+![Part 4 video](images/crashavoidance_part4gif.gif)
+
+### Wiring
+![Part 4 wiring](images/WIN_20230927_13_52_36_Pro.jpg)
+### Code
+[Part 4 code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/crashavoidance_part4.py) 
+
+### Reflection
+
+The most easily made mistake for me this time was releasing the i2c pin BEFORE you declare where the pin goes. Second, I struggled a little with getting the OLED to move the cursor because it doesn't work like LCD displays. The wiring of the SCL and the SCL and the SDA and the SDA was weird since it had to be wired to each other in a chain like fashion.
+
+&nbsp;
 ## Onshape_Assignment_Template
 
 ### Assignment Description
