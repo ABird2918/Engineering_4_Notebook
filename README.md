@@ -185,7 +185,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Part Image
 
-Take a nice screenshot of your Onshape document. 
+[Part image](images/images/Beam Starter + Holder.png)
 
 ### Reflection
 
