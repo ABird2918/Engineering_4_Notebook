@@ -185,7 +185,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Part Image
 
-[Part image](images/Beam Starter + Holder.png)
+[Part image]()
 
 ### Reflection
 
