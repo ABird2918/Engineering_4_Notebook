@@ -185,7 +185,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Part Image
 
-[Part image]()
+[Part image](images/beam.png)
 
 ### Reflection
 
