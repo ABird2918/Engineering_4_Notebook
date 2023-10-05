@@ -189,7 +189,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+We thought the honeycomb pattern would work best to support the beam. We cut out hexagons along the center of the beam but found that the beam was still much too heavy. We needed to cut off 8 grams of the weight to get it under 13 grams for the assignment so we cut hexagons from the top through the bottom of the beam. We also filleted certain points and cut off excess material and we were able to get it down to 12.99 grams. Beause we cut so many holes, there is a good chance it will break easily and when it does it will probably shatter. We won't forget our safety goggles.
 
 &nbsp;
 
