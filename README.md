@@ -177,7 +177,7 @@ GUESS WHAT?!?! I successfully completed a spicy assignment without help from any
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+The assignment was to design a beam that weighs less than 13 grams and fits without modifying the connection block Mr. Miller made in order to hold as much weight as possible off of a surface. The materials must be PLA with no overhang.
 
 ### Part Link 
 
