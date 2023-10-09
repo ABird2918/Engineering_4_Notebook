@@ -175,7 +175,7 @@ GUESS WHAT?!?! I successfully completed a spicy assignment without help from any
 &nbsp;
 ## Onshape_Assignment_Template
 
-### Assignment Description
+### FEA Beam Part 1
 
 The assignment was to design a beam that weighs less than 13 grams and fits without modifying the connection block Mr. Miller made in order to hold as much weight as possible off of a surface. The materials must be PLA with no overhang.
 
@@ -190,6 +190,23 @@ The assignment was to design a beam that weighs less than 13 grams and fits with
 ### Reflection
 
 We thought the honeycomb pattern would work best to support the beam. We cut out hexagons along the center of the beam but found that the beam was still much too heavy. We needed to cut off 8 grams of the weight to get it under 13 grams for the assignment so we cut hexagons from the top through the bottom of the beam. We also filleted certain points and cut off excess material and we were able to get it down to 12.99 grams. Beause we cut so many holes, there is a good chance it will break easily and when it does it will probably shatter. We won't forget our safety goggles.
+
+&nbsp;
+### FEA Beam Part 2
+
+The assignment was to run a force simulation on the beam to predict the amount of force it can hold. Then we were to analyze the results and identify the parts of our beam that were experiencing the most relative stress.
+
+### Part Link 
+
+[Part link](https://cvilleschools.onshape.com/documents/9038cb34a59f90ef5226b7fe/w/995d5394430dd0e4e411f47a/e/81684d3986b9792771074cb9?renderMode=0&uiState=651d6913c9903a610100dc53).
+
+### Part Image
+
+[Part image](images/beam.png)
+
+### Reflection
+
+The aspects of our beam that experienced the most stress were the ones closest to the holder. The joint between the holder attachment and the beam was experiencing so much stress that it was unlikely to really hold very much weight before snapping. Our plan for reinforcing them by adding a slant to our design. We take material away from the end of the beam and put it at the base.
 
 &nbsp;
 
