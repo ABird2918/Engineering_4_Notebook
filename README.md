@@ -209,6 +209,23 @@ The assignment was to run a force simulation on the beam to predict the amount o
 The aspects of our beam that experienced the most stress were the ones closest to the holder. The joint between the holder attachment and the beam was experiencing so much stress that it was unlikely to really hold very much weight before snapping. Our plan for reinforcing them by adding a slant to our design. We take material away from the end of the beam and put it at the base.
 
 &nbsp;
+### FEA Beam Part 3
+
+The assignment was to improve the beam and simulate again to create a better beam than our first test.
+
+### Part Link 
+
+[Part link](https://cvilleschools.onshape.com/documents/9038cb34a59f90ef5226b7fe/w/995d5394430dd0e4e411f47a/e/81684d3986b9792771074cb9?renderMode=0&uiState=65313d091fda9532bd763284).
+
+### Part Image
+
+[Part image](images/beam.png)
+
+### Reflection
+
+The aspects of our beam that experienced the most stress were the ones closest to the holder. The joint between the holder attachment and the beam was experiencing so much stress that it was unlikely to really hold very much weight before snapping. Our plan for reinforcing them by adding a slant to our design. We take material away from the end of the beam and put it at the base.
+
+&nbsp;
 
 ## Media Test
 
