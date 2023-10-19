@@ -203,6 +203,7 @@ The assignment was to run a force simulation on the beam to predict the amount o
 ### Part Image
 
 [Part image](images/beam.png)
+[Simulation image](images/simulation1.png)
 
 ### Reflection
 
@@ -219,11 +220,11 @@ The assignment was to improve the beam and simulate again to create a better bea
 
 ### Part Image
 
-[Part image](images/beam.png)
+[Simulation image](images/simulation.png)
 
 ### Reflection
 
-The aspects of our beam that experienced the most stress were the ones closest to the holder. The joint between the holder attachment and the beam was experiencing so much stress that it was unlikely to really hold very much weight before snapping. Our plan for reinforcing them by adding a slant to our design. We take material away from the end of the beam and put it at the base.
+We evaluated that the weakest point in our last assignment was the joint between the holder and the beam and so we beefed up material at that joint and took material away from the end. Hopefully, the beam will withold a lot more stress given that the point that experiences the most stressed has been emphasized. Overall, I do not have high hopes about the function of this beam because the best designs seem to be oriented like an I beam. Nevertheless, we are going to strive for creativity points and I personally love the honeycomb.
 
 &nbsp;
 
