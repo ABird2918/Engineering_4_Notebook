@@ -185,7 +185,7 @@ The assignment was to design a beam that weighs less than 13 grams and fits with
 
 ### Part Image
 
-[Part image](images/beam.png)
+![Part image](images/beam.png)
 
 ### Reflection
 
@@ -202,8 +202,8 @@ The assignment was to run a force simulation on the beam to predict the amount o
 
 ### Part Image
 
-[Part image](images/beam.png)
-[Simulation image](images/simulation1.png)
+![Part image](images/beam.png)
+![Simulation image](images/simulation1.png)
 
 ### Reflection
 
@@ -220,7 +220,7 @@ The assignment was to improve the beam and simulate again to create a better bea
 
 ### Part Image
 
-[Simulation image](images/simulation.png)
+![Simulation image](images/simulation.png)
 
 ### Reflection
 
