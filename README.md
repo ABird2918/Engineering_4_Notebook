@@ -155,23 +155,76 @@ Using an accelerometer, print the x, y, and z acceleration and angular velosity 
 The most easily made mistake for me this time was releasing the i2c pin BEFORE you declare where the pin goes. Second, I struggled a little with getting the OLED to move the cursor because it doesn't work like LCD displays. The wiring of the SCL and the SCL and the SDA and the SDA was weird since it had to be wired to each other in a chain like fashion.
 
 &nbsp;
-## Onshape_Assignment_Template
+### Crash avoidance: Part 4
 
-### Assignment Description
+Using an accelerometer, print the x, y, and z acceleration and angular velosity on the OLED screen. Using an altimeter, only turn the LED on if the altitude is less than 3 meters above launch point.
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+### Evidence 
 
-### Part Link 
+![Part 4 video](images/crashavoidance_part4gif.gif)
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
-
-### Part Image
-
-Take a nice screenshot of your Onshape document. 
+### Wiring
+![Part 4 wiring](images/WIN_20230927_13_52_36_Pro.jpg)
+### Code
+[Part 4 code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/crashavoidance_part4.py) 
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+GUESS WHAT?!?! I successfully completed a spicy assignment without help from anyone else! I hadn't actually done a code assignment this year without significant assistance from Hazel Conklin but I completed this assignment all on my own for the first time this year, all in one day. There was a funny issue with my altimeter where it didn't know what a meter was so I had to go way farther than 3 meters for it to register as 3 meters but it worked anyway. Also - apparently i2c pins don't really work and it'll throw errors at you if you haven't wired it yet. So I learned that too--wire before you get upset because vscode is insulting you.
+
+&nbsp;
+## Onshape_Assignment_Template
+
+### FEA Beam Part 1
+
+The assignment was to design a beam that weighs less than 13 grams and fits without modifying the connection block Mr. Miller made in order to hold as much weight as possible off of a surface. The materials must be PLA with no overhang.
+
+### Part Link 
+
+[Part link](https://cvilleschools.onshape.com/documents/9038cb34a59f90ef5226b7fe/w/995d5394430dd0e4e411f47a/e/81684d3986b9792771074cb9?renderMode=0&uiState=651d6913c9903a610100dc53).
+
+### Part Image
+
+![Part image](images/beam.png)
+
+### Reflection
+
+We thought the honeycomb pattern would work best to support the beam. We cut out hexagons along the center of the beam but found that the beam was still much too heavy. We needed to cut off 8 grams of the weight to get it under 13 grams for the assignment so we cut hexagons from the top through the bottom of the beam. We also filleted certain points and cut off excess material and we were able to get it down to 12.99 grams. Beause we cut so many holes, there is a good chance it will break easily and when it does it will probably shatter. We won't forget our safety goggles.
+
+&nbsp;
+### FEA Beam Part 2
+
+The assignment was to run a force simulation on the beam to predict the amount of force it can hold. Then we were to analyze the results and identify the parts of our beam that were experiencing the most relative stress.
+
+### Part Link 
+
+[Part link](https://cvilleschools.onshape.com/documents/9038cb34a59f90ef5226b7fe/w/995d5394430dd0e4e411f47a/e/81684d3986b9792771074cb9?renderMode=0&uiState=651d6913c9903a610100dc53).
+
+### Part Image
+
+![Part image](images/beam.png)
+![Simulation image](images/simulation1.png)
+
+### Reflection
+
+The aspects of our beam that experienced the most stress were the ones closest to the holder. The joint between the holder attachment and the beam was experiencing so much stress that it was unlikely to really hold very much weight before snapping. Our plan for reinforcing them by adding a slant to our design. We take material away from the end of the beam and put it at the base.
+
+&nbsp;
+### FEA Beam Part 3
+
+The assignment was to improve the beam and simulate again to create a better beam than our first test.
+
+### Part Link 
+
+[Part link](https://cvilleschools.onshape.com/documents/9038cb34a59f90ef5226b7fe/w/995d5394430dd0e4e411f47a/e/81684d3986b9792771074cb9?renderMode=0&uiState=65313d091fda9532bd763284).
+
+### Part Image
+
+![Simulation image](images/simulation.png)
+
+### Reflection
+
+We evaluated that the weakest point in our last assignment was the joint between the holder and the beam and so we beefed up material at that joint and took material away from the end. Hopefully, the beam will withold a lot more stress given that the point that experiences the most stressed has been emphasized. Overall, I do not have high hopes about the function of this beam because the best designs seem to be oriented like an I beam. Nevertheless, we are going to strive for creativity points and I personally love the honeycomb.
 
 &nbsp;
 
