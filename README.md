@@ -171,7 +171,7 @@ Using an accelerometer, print the x, y, and z acceleration and angular velosity 
 ### Reflection
 
 GUESS WHAT?!?! I successfully completed a spicy assignment without help from anyone else! I hadn't actually done a code assignment this year without significant assistance from Hazel Conklin but I completed this assignment all on my own for the first time this year, all in one day. There was a funny issue with my altimeter where it didn't know what a meter was so I had to go way farther than 3 meters for it to register as 3 meters but it worked anyway. Also - apparently i2c pins don't really work and it'll throw errors at you if you haven't wired it yet. So I learned that too--wire before you get upset because vscode is insulting you.
-
+&nbsp;
 ## Raspberry_Pi_Assignment_Template
 
 ### Landing Area Part 1
@@ -180,16 +180,16 @@ The assignment was to write a program that takes input coordinates and calculate
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+![Part 1 video](images/landingarea_part1.gif) 
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+[Part1 code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/Landingarea_part1.py)
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+The hardests parts of this assignment included input loops and figuring out how to correct incorrect formatting. Additionally, going back and forth between strings and floats caused problems. In the end we were able to get all of those together in order to properly format the input and the output.
 
-&nbsp;
+
 &nbsp;
 ## Onshape_Assignment_Template
 
