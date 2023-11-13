@@ -198,7 +198,7 @@ The assignment was to write a program that takes input coordinates and calculate
 ### Evidence 
 
 ![Part 2 picture](images/WIN_20231109_10_42_15_Pro.jpg) 
-![Part 2 wiring](images/landing2wiring.jpg)
+![Part 2 wiring](images/landing2wiring.png)
 
 ### Code
 [Part 2 code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/landingarea_part2.py)
