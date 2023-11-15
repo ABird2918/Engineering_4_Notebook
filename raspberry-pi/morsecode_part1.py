@@ -1,5 +1,4 @@
 #type: ignore
-import time
 
 MORSE_CODE = { 'A':'.-', 'B':'-...',
     'C':'-.-.', 'D':'-..', 'E':'.',
@@ -18,11 +17,14 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
     '(':'-.--.', ')':'-.--.-'}
 
 while True:
-    message = input("Your Message: ").upper()
-    tmessage = ""
-    if "-q" in message
+    print("Enter your message or -q to quit")
+    message = input().upper() #takes uppercase input
+    morse = ""
+    if message == "-Q": #uppercase exit test
         break
-    for letter in range(len(message)):
-        tmessage = +- MORSE_CODE[message(letter)] + " "
-        print(f"Translation:{tmessage}")
-        time.sleep(1)
+    for letter in message: #for each character in message
+        if letter == " ": #breaks word if space
+            morse = morse + ("/ ")
+        else: #adds morse code for letter to morse translation
+            morse = morse + (MORSE_CODE[letter] + " ")
+    print(f"Translation:{morse}") #prints translation
