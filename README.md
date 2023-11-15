@@ -209,6 +209,24 @@ This assignment was a remix of part one but had some questionable components inc
 
 
 &nbsp;
+### Morse code part 1
+
+The assignment was to create a translator for english to morse code. It takes input text in english and gives the output of the morse code.
+
+### Evidence 
+
+![Part 2 picture](images/WIN_20231109_10_42_15_Pro.jpg) 
+![Part 2 wiring](images/landing2wiring.png)
+
+### Code
+[Part 2 code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/landingarea_part2.py)
+
+### Reflection
+
+This assignment was a remix of part one but had some questionable components including putting triangle at the origin. That was tricky. Additionally, it required an OLED which was a friendly call back to a our favorite previous assignment so I was able to improv the OLED code successfully. 
+
+
+&nbsp;
 ## Onshape_Assignment_Template
 
 ### FEA Beam Part 1
