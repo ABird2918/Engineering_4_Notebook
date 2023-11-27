@@ -1,31 +1,29 @@
 #type: ignore
 import time #delay library
-import board #board library
-import adafruit_mpu6050 #accelerometer library
+import board #pins library
+import digitalio #LED library
+import adafruit_mpu6050 #accelerometer libary
 import busio
-import digitalio
 
-led = digitalio.DigitalInOut(board.GP0)
+led = digitalio.DigitalInOut(board.GP1) #LED declaration
 led.direction = digitalio.Direction.OUTPUT
 
-sda = board.GP14 #SDA pin
-scl = board.GP15 #SCL pin
-i2c = busio.I2C(scl,sda) #I2C device declaration
-
-mpu = adafruit_mpu6050.MPU6050(i2c) #accelerometer
+i2c = busio.I2C(board.GP15, board.GP14) #I2C device declaration
+mpu = adafruit_mpu6050.MPU6050(i2c) #accelerometer declaration
 
 with open("/data.csv", "a") as datalog:
-    while True: #if the z value is less than 7
+    while True:
         runtime = time.monotonic()
         xacc = mpu.acceleration[0]
         yacc = mpu.acceleration[1]
         zacc = mpu.acceleration[2]
-        if (zacc < 2):
+        led.value = True
+        if (zacc < 5): #if board tilts
             tilt = True
         else:
             tilt = False
+            time.sleep(.1)
+            led.value = False
         datalog.write(f"{runtime},{xacc},{yacc},{zacc},{tilt}\n")
-        led.value = True
-        time.sleep(.25)
-        led.value = False
+        datalog.flush()
         time.sleep(.25)
