@@ -215,8 +215,7 @@ The assignment was to create a translator for english to morse code. It takes in
 
 ### Evidence 
 
-![Part 2 picture](images/WIN_20231109_10_42_15_Pro.jpg) 
-![Part 2 wiring](images/landing2wiring.png)
+![Part 1 video](images/morse1.gif) 
 
 ### Code
 [Part 1 code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/morsecode_part1.py)
