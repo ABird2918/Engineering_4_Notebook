@@ -225,6 +225,23 @@ The assignment was to create a translator for english to morse code. It takes in
 One of the new aspects of this assigment was the use of a library to inform our code. Even though we were just copying from the assignment, I had to figure out how to call the library in my code itself. This is also the first time I had to code a break in the code that stops running it when you enter -q.
 
 &nbsp;
+### Morse code part 2
+
+The assignment was to create a translator for english to morse code. It takes input text in english and gives the output of the morse code. To add to the previous assignment, it outputs an LED version of the morse message.
+
+### Evidence 
+
+![Part 2 video](images/morse2.gif) 
+
+### Code
+[Part 2 code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/morsecode_part2.py)
+
+### Reflection
+
+I had some trouble with some of the syntax on this assignment. There seemed to be a lot of moving parts. I specifically struggled with the difference between declaring if a letter is in the message versus if the letter is in range of the message. Once I figured that out and I was able to successfully call the LED value, making the on board led finally work.
+
+&nbsp;
+
 ## Onshape_Assignment_Template
 
 ### FEA Beam Part 1
