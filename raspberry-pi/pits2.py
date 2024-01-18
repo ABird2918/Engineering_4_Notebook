@@ -2,9 +2,12 @@
 import time
 import digitalio
 import board
-import adafruit_lsm6dso32.LSM6DSO32
+import lsm6dso32
 
-sensor = adafruit_lsm6dso32
+sensor = lsm6dso32(i2c)
+sda = board.GP4 #SDA pin
+scl = board.GP5 #SCL pin
+i2c = busio.I2C(scl,sda) #I2C device declaration
 #altitude = sensor.altitude
 while True: 
 # create the display group
