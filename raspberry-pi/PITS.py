@@ -20,8 +20,8 @@ pressure = sensor.pressure
 altitude = sensor.altitude
 temperature = sensor.temperature
 
-display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP2)
-display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
+#display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP2)
+#display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
 
 #mpu = adafruit_mpu6050.MPU6050(i2c, address=0x68) #accelerometer
 while True: 
