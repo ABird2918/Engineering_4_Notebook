@@ -241,7 +241,23 @@ The assignment was to create a translator for english to morse code. It takes in
 I had some trouble with some of the syntax on this assignment. There seemed to be a lot of moving parts. I specifically struggled with the difference between declaring if a letter is in the message versus if the letter is in range of the message. Once I figured that out and I was able to successfully call the LED value, making the on board led finally work.
 
 &nbsp;
+### Data Storage part 1
 
+The assignment was to use the crash avoidance code as a jumping off point to learn how to store data on board the pico and then retrieve it later, notably after plugging and unplugging the pico.
+
+### Evidence 
+
+![Part 1 video](images/data1.gif) 
+![Part 1 data](images/data.csv)
+
+
+### Code
+![Part 1 code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/datastorage1.py)
+![Part 1 boot](images/boot.py)
+### Reflection
+
+The most difficulty I had was after the code itself was finished and related to getting the data to properly store on the pico. Eventually, I realized a few things: don't plug the pico into the computer with the battery still on because it will wipe all the files from the pico. Additionally, remember to make sure your boot file has the same pin on it as you actually plugged the switch into. It is an important detail to remember that the pico has to be switched into data mode, marked by 10 fast lights on the onboard led.
+&nbsp;
 ## Onshape_Assignment_Template
 
 ### FEA Beam Part 1
