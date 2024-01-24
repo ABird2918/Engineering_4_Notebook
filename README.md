@@ -251,13 +251,31 @@ The assignment was to use the crash avoidance code as a jumping off point to lea
 &nbsp;
 ![Part 1 data](images/data.csv)
 
+![Part 1 wiring](images/data1wiring.jpg)
+
 
 ### Code
-![Part 1 code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/datastorage1.py)
+[Part 1 code](https://github.com/ABird2918/Engineering_4_Notebook/blob/main/raspberry-pi/datastorage1.py)
 ![Part 1 boot](images/boot.py)
 ### Reflection
 
 The most difficulty I had was after the code itself was finished and related to getting the data to properly store on the pico. Eventually, I realized a few things: don't plug the pico into the computer with the battery still on because it will wipe all the files from the pico. Additionally, remember to make sure your boot file has the same pin on it as you actually plugged the switch into. It is an important detail to remember that the pico has to be switched into data mode, marked by 10 fast lights on the onboard led.
+&nbsp;
+### Data Storage part 2: Analysis
+
+This assignment was to use the data collected to map and graph the various data points thoroughly on Google Sheets
+
+### Evidence 
+
+
+
+![Part 2 data](images/data2.png)
+![Part 2 spreadsheet](https://docs.google.com/spreadsheets/d/1miKnIYXkC-DCbBz7dUFcIxoN8sa2WTzUYZdf08NblCM/edit#gid=0)
+
+
+### Reflection
+
+This assignment was very useful to set us up for collecting and presenting data for our cumulative project at the end of the year. It makes me wonder, though, how we could accomplish the same thing without having to import our data to Google Sheets. Is it possible to make the same graphs as outputs from VS Code? Anyway, this is an important practical skill for the real world workplace. I'm glad we did it.
 &nbsp;
 ## Onshape_Assignment_Template
 
