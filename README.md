@@ -248,6 +248,7 @@ The assignment was to use the crash avoidance code as a jumping off point to lea
 ### Evidence 
 
 ![Part 1 video](images/data1.gif) 
+&nbsp;
 ![Part 1 data](images/data.csv)
 
 
